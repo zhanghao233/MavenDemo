@@ -1,0 +1,55 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>StudentListServlet</servlet-name>
+    <servlet-class>servlet.StudentListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentUpdateServlet</servlet-name>
+    <servlet-class>servlet.StudentUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentSaveServlet</servlet-name>
+    <servlet-class>servlet.StudentSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentDeleteServlet</servlet-name>
+    <servlet-class>servlet.StudentDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentDeleteServletofupdate</servlet-name>
+    <servlet-class>servlet.StudentDeleteServletofupdate</servlet-class>
+  </servlet>
+    <servlet>
+        <servlet-name>PageBeanServlet</servlet-name>
+        <servlet-class>servlet.PageBeanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>StudentListServlet</servlet-name>
+    <url-pattern>/StudentListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentUpdateServlet</servlet-name>
+    <url-pattern>/StudentUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentSaveServlet</servlet-name>
+    <url-pattern>/StudentSaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentDeleteServlet</servlet-name>
+    <url-pattern>/StudentDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentDeleteServletofupdate</servlet-name>
+    <url-pattern>/StudentDeleteServletofupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageBeanServlet</servlet-name>
+    <url-pattern>/PageBeanServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
